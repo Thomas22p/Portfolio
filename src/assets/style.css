@@ -15,16 +15,17 @@
     background-color: #0C0F11;
   }
   
-  .circle {
-    --circle-size: 30px;
+  .custom-cursor {
+    --cursor-size: 30px;
     position: fixed;
-    height: var(--circle-size);
-    width: var(--circle-size);
+    z-index: 10;
+    height: var(--cursor-size);
+    width: var(--cursor-size);
+    background-color: white;
     border: 1px solid white;
     border-radius: 50%;
     top: 0;
     left: 0;
     pointer-events: none;
-    transform-origin: center;
-    transition: transform 0.1s ease;
+    mix-blend-mode: difference;
   }
