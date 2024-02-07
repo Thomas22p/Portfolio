@@ -24,8 +24,35 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 50%;
-    top: 0;
-    left: 0;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
+    transform-origin: center;
     mix-blend-mode: difference;
   }
+
+
+  .test-animation {
+    width: 100vw-100px;
+    height: auto;
+  }
+
+
+  .menu-link {
+    position: relative; /* Permet de positionner l'élément ::after par rapport à celui-ci */
+}
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Positionne le trait juste en dessous du texte */
+    left: 0;
+    width: 0;
+    height: 2px; /* Hauteur du trait */
+    background-color: white;
+    transition: width 0.3s; /* Animation de la largeur */
+}
+
+.menu-link:hover::after {
+    width: 100%; /* Lorsque survolé, le trait s'étend de gauche à droite */
+}

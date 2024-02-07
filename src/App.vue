@@ -2,6 +2,9 @@
   import { ref, onMounted } from 'vue'
   import { RouterLink, RouterView } from 'vue-router'
   import './assets/style.css'
+
+  import Header from './components/Header.vue';
+  import Footer from './components/Footer.vue'
   // import LoadingPage from './components/LoadingPage.vue'
 
   const customCursor = ref(null)
@@ -28,20 +31,21 @@
   // curseur personnalisé 
 
   const animateCursor = () => {
-  window.addEventListener("mousemove", handleMouseMove)
-  }
+    window.addEventListener("mousemove", handleMouseMove);
+  };
 
   const handleMouseMove = (e) => {
-    if (customCursor.value) {
-      const posX = e.clientX;
-      const posY = e.clientY;
+      if (customCursor.value) {
+          const posX = e.clientX;
+          const posY = e.clientY;
 
-      const offsetX = -16;
-      const offsetY = -16;
+          // Ajoutez le décalage pour ajuster le curseur personnalisé par rapport au pointeur réel
+          const offsetX = -16; // ajustez la valeur en fonction de la largeur du curseur personnalisé
+          const offsetY = -16; // ajustez la valeur en fonction de la hauteur du curseur personnalisé
 
-      customCursor.value.style.transform = `translate(${posX + offsetX}px, ${posY + offsetY}px)`;
-    }
-  }
+          customCursor.value.style.transform = `translate(${posX + offsetX}px, ${posY + offsetY}px)`;
+      }
+  };
 
 
 
@@ -50,22 +54,33 @@
 </script>
 
 <template>
+  <div class="custom-cursor" ref="customCursor"></div>
+  <Header />
   <div>
     <header>
       <!-- <LoadingPage v-if="isFirstVisit" /> -->
       <div>
-        <div class="custom-cursor" ref="customCursor"></div>
         <nav>
-          <RouterLink to="/" class="text-slate-100">Home</RouterLink>
-          <RouterLink to="/about" class="text-slate-100">About</RouterLink>
-          <RouterLink to="/contact" class="text-slate-100">Contact</RouterLink>
+          <RouterLink to="/" class="text-white menu-link font-bold font-darker">Home</RouterLink>
+          <RouterLink to="/about" class="text-white menu-link font-bold font-darker">About</RouterLink>
+          <RouterLink to="/contact" class="text-white menu-link font-bold font-darker">Contact</RouterLink>
         </nav>
 
         <RouterView />
       </div>
     </header>
 
+
+    
+
+  
+
+
+    
+
   </div>
+
+  <Footer />
 </template>
 
 

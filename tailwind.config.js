@@ -24,8 +24,7 @@ module.exports = {
 
       // Typos
       fontFamily: {
-        josefin: "Josefin Sans, sans-serif",
-        nunito: "Nunito, sans-serif",
+        darker: "Darker Grotesque, sans-serif",
       },
 
       // Ombres
