@@ -1,6 +1,6 @@
 <template>
     <header class="bg-transparent mb-4 w-full z-10 ">
-        <div class="mx-auto px-24">
+        <div class="mx-auto px-4 md:px-24">
             <div class="flex items-center justify-between h-[100px] border-b-2 border-white">
                 <RouterLink to="/" class="text-white font-medium font-darker text-xl">THOM<span class="font-medium font-darker text-base">Δ</span>S POUPON</RouterLink>
                 <button class="text-white focus:outline-none md:hidden mr-2">

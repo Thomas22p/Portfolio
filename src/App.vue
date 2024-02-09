@@ -55,30 +55,10 @@
 
 <template>
   <div class="custom-cursor" ref="customCursor"></div>
-  <Header />
-  <div>
-    <header>
-      <!-- <LoadingPage v-if="isFirstVisit" /> -->
-      <div>
-        <nav>
-          <RouterLink to="/" class="text-white menu-link font-bold font-darker">Home</RouterLink>
-          <RouterLink to="/about" class="text-white menu-link font-bold font-darker">About</RouterLink>
-          <RouterLink to="/contact" class="text-white menu-link font-bold font-darker">Contact</RouterLink>
-        </nav>
-
-        <RouterView />
-      </div>
-    </header>
-
-
-    
-
   
+  <Header />
 
-
-    
-
-  </div>
+  <RouterView />
 
   <Footer />
 </template>
