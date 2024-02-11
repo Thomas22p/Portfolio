@@ -7,19 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Noirs et blancs
-        noir1E: "#1E1E1E",
-        noir11: "#111111",
         noir: "#000000",
         blanc: "#FFFFFF",
-        blancF5: "#F5F5F5",
-        grisAA: "#AAAAAA",
-        gris88: "#888888",
-        grisEB: "#EBEBEB",
-        gris66: "#666666",
-
-        /* Couleurs */
-        darkblue: "#42558E",
+        dark: "0C0F11",
+        darkblue: "#1A2328",
+        light: "#EDEDED",
+        lightblue: "#BCD8DE",
       },
 
       // Typos
