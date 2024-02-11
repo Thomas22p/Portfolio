@@ -13,6 +13,7 @@ module.exports = {
         darkblue: "#1A2328",
         light: "#EDEDED",
         lightblue: "#BCD8DE",
+        grey: "#656565",
       },
 
       // Typos
