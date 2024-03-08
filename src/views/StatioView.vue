@@ -1,6 +1,7 @@
 <script setup>
 
 import BeforeFooter from '../components/BeforeFooter.vue'
+import MoreWork from '../components/MoreWork.vue'
 
 </script>
 
@@ -52,38 +53,9 @@ import BeforeFooter from '../components/BeforeFooter.vue'
     </div>
 
 
-    <!-- <div class="lg:grid lg:grid-cols-12 lg:justify-stretch lg:gap-4 flex px-4 md:px-24 font-darker">
+  </section>
 
-
-      <p class="text-grey col-start-1 col-span-2 font-medium text-2xl pt-4">Concept</p>
-      <div class="text-white col-start-4 col-span-7">
-        <h2 class="text-6xl font-medium mb-12">Building a brand for a product</h2>
-        <p class="text-2xl font-medium leading-none">In a world where technology shapes our interactions, crafting an appealing mobile application is not just about a mere idea but about an engaging user experience. Statio embodies this ethos by simplifying modern travel with a comprehensive range of features. From instant translation to real-time weather data, integrated messaging, and currency conversion, Statio is committed to meeting the diverse needs of today's travelers. By turning the app into a true community, Statio creates a space where users can connect, plan their trips, and receive personalized recommendations tailored to their individual preferences.
-        </p>
-      </div>
-
-
-      <div></div>
-
-
-
-      <p class="text-grey col-start-1 col-span-2 font-medium text-2xl pt-4">Branding</p>
-      <div class="text-white col-start-4 col-span-7">
-        <h2 class="text-6xl font-medium mb-12">The Art of Infusing Brand Essence</h2>
-        <p class="text-2xl font-medium leading-none">Creating a new product means crafting a universe that embodies the company's essence, distinguishing it and connecting emotionally with customers. Inspired by aviation and travel, I integrated iconic symbols like suitcases and airplanes, evoking adventure and appealing to explorers. By incorporating these elements into the design, our goal is to capture attention and ignite wanderlust, forging a strong emotional connection with our audience.
-        </p>
-      </div>
-
-
-
-
-
-
-  
-
-    </div> -->
-
-
+  <section>
     <div>
       <div class="md:block hidden">
         <div class="md:grid md:grid-cols-12 md:justify-stretch md:gap-4 flex px-4 md:px-24 font-darker">
@@ -178,14 +150,9 @@ import BeforeFooter from '../components/BeforeFooter.vue'
     </div>
 
 
-
-
-    
-
-
-
-
   </section>
+
+  <MoreWork class="-mt-28 mb-[200px]"/>
 
 
   <BeforeFooter />
