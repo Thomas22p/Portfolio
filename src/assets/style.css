@@ -84,3 +84,21 @@
 .footer-link:hover::after {
   width: 100%;
 }
+
+.hero-wrapper {
+  width: 100%;
+  grid-column-gap: 6rem;
+  grid-row-gap: 6rem;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 90px 0;
+  display: flex;
+}
+
+
+.gradient-img {
+  background: linear-gradient(transparent, #0C0F11);
+}

@@ -49,9 +49,10 @@
 
       <!-- cards -->
       <div class="lg:grille mt-20">
-        <div class="bg-darkblue text-white rounded-lg p-6 lg:col-span-4 flex flex-col gap-5">
-          <h1 class="font-darker text-6xl font-normal mb-4">DESIGN</h1>
-          <p class="font-darker text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat.</p>
+
+        <div class="bg-darkblue text-white rounded-lg p-6 lg:col-span-4 flex flex-col gap-5 transition-transform duration-300 ease-in-out hover:-translate-y-8">
+          <h1 class="font-darker text-5xl font-normal mb-4">BRANDING</h1>
+          <p class="font-darker text-xl">Crafting a distinctive visual identity is paramount in setting your project apart. I am responsible for curating comprehensive brand identities from inception to execution.</p>
           <div class="flex items-center gap-2">
             <div class="border border-white rounded-full pb-2 pt-1 px-2">
               <p class="text-xl font-darker">Figma</p>
@@ -64,10 +65,11 @@
             </div>
           </div>
         </div>
+        
 
-        <div class="bg-light rounded-lg p-6 lg:col-span-4 flex flex-col gap-5">
-          <h1 class="font-darker text-6xl font-normal mb-4">MARKETING</h1>
-          <p class="font-darker text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="bg-light rounded-lg p-6 lg:col-span-4 flex flex-col gap-5 transition-transform duration-300 ease-in-out hover:-translate-y-8">
+          <h1 class="font-darker text-5xl font-normal mb-4">UX/UI DESIGN</h1>
+          <p class="font-darker text-xl">Harnessing my expertise in UI and UX design, I tailor captivating interfaces for your brand's digital platforms, ensuring seamless user experiences and aesthetic appeal.</p>
           <div class="flex items-center gap-2">
             <div class="border border-black rounded-full pb-2 pt-1 px-2">
               <p class="text-xl font-darker">Figma</p>
@@ -81,9 +83,9 @@
           </div>
         </div>
 
-        <div class="bg-lightblue rounded-lg p-6 lg:col-span-4 flex flex-col gap-5">
-            <h1 class="font-darker text-6xl font-normal mb-4">DEVELOPMENT</h1>
-            <p class="font-darker text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="bg-lightblue rounded-lg p-6 lg:col-span-4 flex flex-col gap-5 transition-transform duration-300 ease-in-out hover:-translate-y-8">
+            <h1 class="font-darker text-5xl font-normal mb-4">MOTION DESIGN</h1>
+            <p class="font-darker text-xl">Bringing concepts to life through dynamic motion design, I transform ideas into engaging visual narratives, enriching your brand's storytelling across various media platforms.</p>
             <div class="flex items-center gap-2">
               <div class="border border-black rounded-full pb-2 pt-1 px-2">
                 <p class="text-xl font-darker">Figma</p>
@@ -103,8 +105,7 @@
 
     </div>
 
-
-
+  
 
     <Work class="mb-[200px]" />
 
