@@ -6,6 +6,7 @@
   import Gallery from '../components/Gallery.vue'
   import Projects from '../components/Projects.vue'
   import BeforeFooter from '../components/BeforeFooter.vue'
+  import GalleryHome from '../components/GalleryHome.vue'
 
   window.addEventListener('scroll', function() {
         const scrollingContainer = document.querySelector('.scrolling-container');
@@ -16,35 +17,42 @@
 </script>
 
 <template>
+
+
+ <!-- Bannière  -->             <!-- md:block hidden -> enlever ceci (juste en dessous) pour voir en dessous de md  --> 
+  <div class="relative">
+    <img src="../assets/icn-svg/hero-homepage.svg" alt="Thomas Poupon" class="absolute top-[370px] z-0">
+    <div class="absolute -top-[50px] z-1 w-full flex justify-center">
+      <img src="../assets/img/logo_animation0001.gif" alt="animation logo">
+    </div>
+  </div>
+
+  <section  class="px-4 md:px-24 mb-56 mt-[750px]">
+    <div class="flex items-center gap-4 md:ml-32">
+      <img class="pt-3" src="../assets/icn-svg/arrow.svg" alt="arrow">
+      <p class="text-white font-normal font-darker text-6xl">Webdesign Student</p>
+    </div>
+    <div class="flex justify-end">
+      <p class="text-white font-normal text-right font-darker text-3xl mt-16 w-[500px]">Hi, I'm Thomas, A graphic designer based in France working in Web-design, Motion Design, Branding and typography.</p>
+    </div>
+  </section>
+
+
+
   <div class="px-4 md:px-24 mb-56">
 
-
-    <!-- Bannière  -->             <!-- md:block hidden -> enlever ceci (juste en dessous) pour voir en dessous de md  --> 
-    <section>
-      <h1 class="text-white font-bold font-darker text-9xl text-center md:block hidden">THOM<span class="font-bold font-darker text-8xl">Δ</span>S POUPON</h1>
-      <div class="test-animation">
-        <img src="../assets/img/logo_animation0001.gif" alt="animation logo">
-      </div>
-      <div class="flex items-center gap-4 md:ml-40">
-        <img class="pt-3" src="../assets/icn-svg/arrow.svg" alt="arrow">
-        <p class="text-white font-normal font-darker text-6xl">Webdesign Student</p>
-      </div>
-      <div class="flex justify-end">
-        <p class="text-white font-normal text-right font-darker text-3xl mt-16 w-[500px]">Hi, I'm Thomas, A graphic designer based in France working in Web-design, Motion Design, Branding and typography.</p>
-      </div>
-    </section>
-
-
-
+  
     <!-- Section Skills -->
 
     <!-- Titre -->
     <section>
       <div class="flex items-center justify-between pb-5 border-b-2 border-white mt-[200px]">
         <h2 class="text-white font-bold font-darker text-8xl">SKILLS</h2>
-        <div class="rounded-full border-2 border-white p-3">
-          <p class="text-white font-medium font-darker text-lg my-5">VIEW ALL</p>
-        </div>
+        <a href="https://www.linkedin.com/in/thomas-poupon-pro/details/skills/">
+          <div class="rounded-full border-2 border-white p-3">
+            <p class="text-white font-medium font-darker text-lg my-5">VIEW ALL</p>
+          </div>
+        </a>
       </div>
 
       <!-- cards -->
@@ -107,7 +115,9 @@
 
   
 
-    <Work class="mb-[200px]" />
+    <!-- <Work class="mb-[200px]" /> -->
+
+    <img src="../assets/vid/work.gif" alt="work" class="mb-[200px]">
 
     <!-- test balise marquee = mouvement -->
     <!-- <marquee direction="left" class="text-white">jdbfdjhvbfhvhdbvhbfhbvyudbuvhjbsduhvbkshdbvuyqb</marquee> -->
@@ -116,17 +126,16 @@
 
     <!-- Projets -->
 
-    <section class="projet px-4 md:px-24">
-      <div class="h-36 border-y-2 border-white mb-[200px] flex">
-        <p class="text-white font-normal text-center font-darker text-3xl m-auto" >Projet ici</p>
-      </div>
-    </section>
-
     <Projects class="mb-[200px]" />
 
 
 
-    <Gallery class="mb-[200px]" />
+    <!-- <Gallery class="mb-[200px]" /> -->
+
+    
+    <img src="../assets/vid/gallery.gif" alt="gallery" class="mb-[200px]">
+
+    <GalleryHome class="mb-[200px]" />
 
 
     <BeforeFooter/>
