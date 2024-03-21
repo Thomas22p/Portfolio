@@ -5,7 +5,17 @@ const images = ref([
   { src: 'src/assets/img/cover-1.jpg', alt: 'cover 1' },
   { src: 'src/assets/img/cover-2.jpg', alt: 'cover 2' },
   { src: 'src/assets/img/mockup-idesign.jpg', alt: '' },
-  // Add more images here
+  { src: 'src/assets/img/affiche-cameleon.jpg', alt: 'cover 3' },
+  { src: 'src/assets/img/affiche-fuji.jpg', alt: 'cover 6' },
+  { src: 'src/assets/img/mockup-carte-de-visite.jpg', alt: 'cover 3' },
+  { src: 'src/assets/img/mockup-600.jpg', alt: 'cover 5' },
+  { src: 'src/assets/img/mockup-benevol-action-1.jpg', alt: 'cover 7' },
+  { src: 'src/assets/img/Mockup-pancarte.jpg', alt: 'cover 1' },
+  { src: 'src/assets/img/affiche-nomadis.jpg', alt: 'cover 7' },
+  { src: 'src/assets/img/affiche-zebre.jpg', alt: 'cover 1' },
+  { src: 'src/assets/img/affiche-montebello.jpg', alt: 'cover 7' },
+  { src: 'src/assets/img/cover-3.jpg', alt: 'cover 1' },
+
 ]);
 
 const currentIndex = ref(0);
@@ -57,7 +67,7 @@ function previousSlide() {
   </div>
 
   <div class="md:hidden block">
-    <div class="app__body px-4 mx-4 mb-[200px]">
+    <div class="app__body ml-4 px-4 mb-[200px]">
       <div class="relative w-full">
         <div
           class="flex transition-transform duration-300 ease-in-out -ml-4"

@@ -7,10 +7,12 @@
             <p class="text-white font-medium text-center font-darker text-3xl">LET'S CONNECT !</p>
         </div>
         <div class="hidden md:block">
-            <div class="flex gap-2 lg:gap-8 justify-end">
-                <p class="text-white font-normal font-darker text-8xl">CONTACT ME</p>
-                <img class="pt-4" src="../assets/icn-svg/arrow-footer.svg" alt="contact me">
-            </div>
+            <RouterLink to="/contact">
+                <div class="flex gap-2 lg:gap-8 justify-end">
+                    <p class="text-white font-normal font-darker text-8xl">CONTACT ME</p>
+                    <img class="pt-4" src="../assets/icn-svg/arrow-footer.svg" alt="contact me">
+                </div>
+            </RouterLink>
         </div>
     </section>
 </template>

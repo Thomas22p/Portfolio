@@ -117,7 +117,7 @@
 
     <!-- <Work class="mb-[200px]" /> -->
 
-    <img src="../assets/vid/work.gif" alt="work" class="mb-[200px]">
+    <img src="../assets/vid/work.gif" alt="work" class="md:mt-[300px] mt-[200px] mb-[200px]">
 
     <!-- test balise marquee = mouvement -->
     <!-- <marquee direction="left" class="text-white">jdbfdjhvbfhvhdbvhbfhbvyudbuvhjbsduhvbkshdbvuyqb</marquee> -->
@@ -133,7 +133,7 @@
     <!-- <Gallery class="mb-[200px]" /> -->
 
     
-    <img src="../assets/vid/gallery.gif" alt="gallery" class="mb-[200px]">
+    <img src="../assets/vid/gallery.gif" alt="gallery" class="md:mt-[300px] mt-[200px] mb-[200px]">
 
     <GalleryHome class="mb-[200px]" />
 
