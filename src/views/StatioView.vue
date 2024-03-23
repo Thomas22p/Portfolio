@@ -12,37 +12,58 @@ import MoreWork from '../components/MoreWork.vue'
 
     <!-- hero wrapper -->
 
-    <div class="mb-[300px]">
-      <div class="hero-wrapper">
+    <div class="mb-[100px] md:mb-[300px]">
+      <div class="md:block hidden">
         
-        <div class="relative h-[380.5px] w-[270px] -ml-20">
+        <div class="hero-wrapper px-24 lg:px-0">
+          <div class="relative h-[380.5px] w-[270px]">
+            <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
+            <img src="../assets/img/mockup-statio-3.jpg" alt="statio" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
+          </div>
+          <div class="h-[500px] w-[350px] flex justify-around">
+            <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Statio</h1>
+            <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[500px] w-[350px] object-cover">
+          </div>
+          <div class="relative h-[221px] w-[150px]">
+            <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
+            <img src="../assets/img/mockup-statio-1.jpg" alt="statio" class="h-[220px] lg:w-[150px] object-cover rounded-2xl">
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="md:hidden block px-4">
+
+        <div class="h-auto flex justify-around px-12 sm:px-24">
+          <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Statio</h1>
+          <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[600px] w-full object-cover">
+        </div>
+        
+        <div class="relative h-[380.5px] w-[270px] mt-16">
           <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
           <img src="../assets/img/mockup-statio-3.jpg" alt="statio" class="h-[380px] w-[270px] object-cover rounded-2xl">
         </div>
       
-        <div class="h-[500px] w-[350px] flex justify-around">
-          <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Statio</h1>
-          <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[500px] w-[350px] object-cover">
-        </div>
-      
-        <div class="relative h-[221px] w-[150px]">
+        <div class="relative h-[221px] w-[150px] mt-16 ml-auto">
           <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
           <img src="../assets/img/mockup-statio-1.jpg" alt="statio" class="h-[220px] w-[150px] object-cover rounded-2xl">
         </div>
         
       </div>
+
       
-      <div class="flex items-center gap-2 w-full justify-center">
-        <div class="border-2 border-white rounded-full px-5 h-[46px]">
-          <p class="text-3xl font-darker text-white font-medium">WEBSITE DESIGN</p>
+      <div class="flex items-center gap-2 w-full justify-center flex-wrap md:flex-nowrap mt-[100px]">
+        <div class="border-2 border-white rounded-full px-5 h-[46px] mb-2 md:mb-0">
+            <p class="text-3xl font-darker text-white font-medium">WEBSITE DESIGN</p>
         </div>
-        <div class="border-2 border-white rounded-full px-5 h-[46px]">
-          <p class="text-3xl font-darker text-white font-medium">UX/UI DESIGN</p>
+        <div class="border-2 border-white rounded-full px-5 h-[46px] mb-2 md:mb-0">
+            <p class="text-3xl font-darker text-white font-medium">UX/UI DESIGN</p>
         </div>
-        <div>
-          <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023">
+        <div class="mb-2 md:mb-0">
+            <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023">
         </div>
       </div>
+
 
     </div>
 
@@ -85,11 +106,13 @@ import MoreWork from '../components/MoreWork.vue'
 
     <div class="flex flex-col gap-12 mt-40 mb-64">
 
-      <div class="flex justify-center">
-        <img src="../assets/img/statio-louvre.png" alt="statio application" class="-mx-12 max-h-[500px]">
-        <img src="../assets/img/statio-devise.png" alt="statio application" class="-mx-12 max-h-[500px]">
-        <img src="../assets/img/statio-planning.png" alt="statio application" class="-mx-12 max-h-[500px]">
+      <div class="flex justify-center flex-wrap">
+        <img src="../assets/img/statio-louvre.png" alt="statio application" class="mx-4 my-2 max-h-[400px] md:max-w-[calc(50% - 2rem)] md:flex-shrink-0">
+        <img src="../assets/img/statio-devise.png" alt="statio application" class="mx-4 my-2 max-h-[400px] md:max-w-[calc(50% - 2rem)] md:flex-shrink-0">
+        <img src="../assets/img/statio-planning.png" alt="statio application" class="mx-4 my-2 max-h-[400px] md:max-w-[calc(50% - 2rem)] md:flex-shrink-0">
       </div>
+
+
 
       <img src="../assets/img/statio-ordi.webp" alt="statio on computer" class="px-4 md:px-24"> 
 
