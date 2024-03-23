@@ -12,37 +12,57 @@ import MoreWork from '../components/MoreWork.vue'
 
     <!-- hero wrapper -->
 
-    <div class="mb-[300px]">
-      <div class="hero-wrapper">
+    <div class="mb-[100px] md:mb-[300px]">
+      <div class="md:block hidden">
+
+        <div class="hero-wrapper px-24 lg:px-0">
+          <div class="relative h-[380.5px] w-[270px]">
+            <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
+            <img src="../assets/img/mockup-panneau.png" alt="signage campus" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
+          </div>
         
-        <div class="relative h-[380.5px] w-[270px] -ml-20">
-          <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-          <img src="../assets/img/mockup-statio-3.jpg" alt="statio" class="h-[380px] w-[270px] object-cover rounded-2xl">
-        </div>
-      
-        <div class="h-[500px] w-[350px] flex justify-around">
-          <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Campus</h1>
-          <img src="../assets/img/map.png" alt="university campus 3d map" class="h-[500px] w-[350px] object-cover">
-        </div>
-      
-        <div class="relative h-[221px] w-[150px]">
-          <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-          <img src="../assets/img/mockup-campus.jpg" alt="campus" class="h-[220px] w-[150px] object-cover rounded-2xl">
-        </div>
+          <div class="h-[500px] w-[350px] flex justify-around">
+            <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Campus</h1>
+            <img src="../assets/img/map.png" alt="university campus 3d map" class="h-[500px] w-[350px] object-cover">
+          </div>
         
+          <div class="relative h-[221px] w-[150px]">
+            <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
+            <img src="../assets/img/mockup-campus.jpg" alt="campus" class="h-[220px] lg:w-[150px] object-cover rounded-2xl">
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="md:hidden block px-4">
+
+          <div class="h-auto flex justify-around px-12 sm:px-24">
+            <h1 class="text-white font-bold font-darker text-4xl uppercase absolute top-[450px]">Campus</h1>
+            <img src="../assets/img/map.png" alt="university campus 3d map" class="h-[500px] w-full object-cover">
+          </div>
+
+          <div class="relative h-[380.5px] w-[270px] mt-16">
+            <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
+            <img src="../assets/img/mockup-panneau.png" alt="signage campus" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
+          </div>
+        
+          <div class="relative h-[221px] w-[150px] mt-16 ml-auto">
+            <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
+            <img src="../assets/img/mockup-campus.jpg" alt="campus" class="h-[220px] w-[150px] object-cover rounded-2xl">
+          </div>
       </div>
       
-      <div class="flex items-center gap-2 w-full justify-center">
-        <div class="border-2 border-white rounded-full px-5 h-[46px]">
+      <div class="flex items-center gap-2 w-full justify-center flex-wrap  mt-[100px]">
+        <div class="border-2 border-white rounded-full px-5 h-[46px] mb-2 md:mb-0">
           <p class="text-3xl font-darker text-white font-medium">SIGNAGE PROTOTYPING</p>
         </div>
-        <div class="border-2 border-white rounded-full px-5 h-[46px]">
+        <div class="border-2 border-white rounded-full px-5 h-[46px] mb-2 md:mb-0">
           <p class="text-3xl font-darker text-white font-medium">WEBSITE DESIGN</p>
         </div>
-        <div class="border-2 border-white rounded-full px-5 h-[46px]">
+        <div class="border-2 border-white rounded-full px-5 h-[46px] mb-2 md:mb-0">
           <p class="text-3xl font-darker text-white font-medium">3D MAPPING</p>
         </div>
-        <div>
+        <div class="mb-2 md:mb-0">
           <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023">
         </div>
       </div>
@@ -91,16 +111,7 @@ import MoreWork from '../components/MoreWork.vue'
 
 
     <div class="flex flex-col gap-12 mt-40 mb-64">
-
-      <div class="flex justify-center">
-        <img src="../assets/img/statio-louvre.png" alt="statio application" class="-mx-12 max-h-[500px]">
-        <img src="../assets/img/statio-devise.png" alt="statio application" class="-mx-12 max-h-[500px]">
-        <img src="../assets/img/statio-planning.png" alt="statio application" class="-mx-12 max-h-[500px]">
-      </div>
-
-      <img src="../assets/img/statio-ordi.webp" alt="statio on computer" class="px-4 md:px-24"> 
-
-
+      <img src="../assets/img/mockup-campus.jpg" alt="university campus 3d map" class="px-4 md:px-24">
     </div>
 
 
@@ -132,8 +143,9 @@ import MoreWork from '../components/MoreWork.vue'
 
     <div class="flex flex-col gap-12 mt-40 mb-64">
 
-      <img src="../assets/img/statio-mockup-mur.webp" alt="statio on computer" class="px-4 md:px-24"> 
-
+      <img src="../assets/img/mockup-panneau.png" alt="university campus signage" class="px-4 md:px-24">
+      <img src="../assets/img/panneau1.png" alt="university campus signage" class="px-4 md:px-24">
+      <img src="../assets/img/panneau2.png" alt="university campus signage" class="px-4 md:px-24">
 
     </div>
 
@@ -169,7 +181,12 @@ import MoreWork from '../components/MoreWork.vue'
 
       <div class="flex flex-col gap-12 mt-40 mb-64">
 
-        <img src="../assets/img/statio-mockup-mur.webp" alt="statio on computer" class="px-4 md:px-24"> 
+        <div class="w-full px-4 md:px-24">
+          <video autoplay loop muted class="w-full">
+            <source src="../assets/vid/animation-map.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
 
       </div>
 
@@ -180,22 +197,23 @@ import MoreWork from '../components/MoreWork.vue'
   
   <!-- more work -->
 
-
   <section class="px-4 md:px-24 -mt-28 mb-[200px]">
 
-    <h1 class="text-white font-bold font-darker text-8xl flex gap-6 mb-16">
+    <h1 class="text-white font-bold font-darker text-6xl md:text-8xl flex gap-6 mb-16">
     MORE
-      <span><img src="../assets/icn-svg/work.svg" alt="work" class="mt-[30px] h-[55px]"></span>
+        <span><img src="../assets/icn-svg/work.svg" alt="work" class="mt-5 md:mt-[30px] h-8 md:h-[55px]"></span>
     </h1>
-    <div class="flex w-full justify-between">
-      <RouterLink to="/statio">
-          <div class="relative">
-              <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.jpg" alt="First project - Statio">
-              <div class="">
-                  <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">STATIO</h1>
-                  <div class="flex items-center gap-2 absolute bottom-5 left-5">
+
+    <div class="md:block hidden">
+        <div class="flex w-full justify-between gap-4">
+            <RouterLink to="/statio">
+              <div class="relative">
+                <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.jpg" alt="First project - Statio">
+                <div class="">
+                  <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">STATIO</h1>
+                  <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
                       <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
-                      <p class="text-lg font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
+                        <p class="text-lg font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
                       </div>
                       <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
                           <p class="text-lg font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
@@ -203,52 +221,122 @@ import MoreWork from '../components/MoreWork.vue'
                       <div>
                           <img src="../assets/icn-svg/2024-button.svg" alt="producted in 2024" class="h-[26px]">
                       </div>
+                    </div>
                   </div>
-              </div>
-          </div>
-      </RouterLink>
-      <RouterLink to="/mylogo">
-          <div class="relative">
+                </div>
+            </RouterLink>
+            <RouterLink to="/mylogo">
+                <div class="relative">
+                  <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.png" alt="Second project - My logo">
+                  <div class="">
+                    <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">MY LOGO</h1>
+                    <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
+                        <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
+                        <p class="text-lg font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
+                        </div>
+                        <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
+                            <p class="text-lg font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
+                        </div>
+                        <div>
+                            <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023" class="h-[26px]">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </RouterLink>
+            <RouterLink to="/primitivism">
+                <div class="relative">
+                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-primitivism-1.jpg" alt="Second project - My logo">
+                    <div class="">
+                        <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
+                        <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
+                            <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
+                            <p class="text-lg font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
+                            </div>
+                            <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
+                                <p class="text-lg font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023" class="h-[26px]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </RouterLink>
+        </div>
+    </div>
+
+
+    <div class="md:hidden block w-full overflow-x-auto" style="width: 96vw;">
+      <div class="flex" style="scroll-snap-type: x mandatory; width: 290vw;">
+          
+        <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
+            <RouterLink to="/statio">
+                <div class="relative">
+                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.jpg" alt="First project - Statio">
+                    <div class="">
+                        <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">STATIO</h1>
+                        <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
+                            <div class="border-2 border-white rounded-full px-2 pt-0.5 h-[26px]">
+                            <p class="text-md font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
+                            </div>
+                            <div class="border-2 border-white rounded-full px-2 pt-0.5 h-[26px]">
+                                <p class="text-md font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icn-svg/2024-button.svg" alt="producted in 2024" class="h-[26px]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </RouterLink>
+        </div>
+        <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
+          <RouterLink to="/mylogo">
+            <div class="relative">
               <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.png" alt="Second project - My logo">
               <div class="">
-                  <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">MY LOGO</h1>
-                  <div class="flex items-center gap-2 absolute bottom-5 left-5">
-                      <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
-                      <p class="text-lg font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
-                      </div>
-                      <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
-                          <p class="text-lg font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
-                      </div>
-                      <div>
-                          <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023" class="h-[26px]">
-                      </div>
+                <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">MY LOGO</h1>
+                <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
+                  <div class="border-2 border-white rounded-full px-2 pt-0.5 h-[26px]">
+                    <p class="text-md font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
                   </div>
-              </div>
-          </div>
-      </RouterLink>
-      <RouterLink to="/primitivism">
-          <div class="relative">
-              <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-primitivism-1.jpg" alt="Second project - My logo">
-              <div class="">
-                  <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
-                  <div class="flex items-center gap-2 absolute bottom-5 left-5">
-                      <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
-                      <p class="text-lg font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
-                      </div>
-                      <div class="border-2 border-white rounded-full px-2.5 h-[26px]">
-                          <p class="text-lg font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
-                      </div>
-                      <div>
-                          <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023" class="h-[26px]">
-                      </div>
+                  <div class="border-2 border-white rounded-full px-2 pt-0.5 h-[26px]">
+                    <p class="text-md font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
                   </div>
+                  <div>
+                    <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023" class="h-[26px]">
+                  </div>
+                </div>
               </div>
-          </div>
-      </RouterLink>
+            </div>
+          </RouterLink>
+        </div>
+        <div class="inline-block" style="scroll-snap-align: start; width: 92vw;">
+            <RouterLink to="/primitivism">
+                <div class="relative">
+                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                    <div class="">
+                        <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
+                        <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
+                            <div class="border-2 border-white rounded-full px-2 pt-0.5 h-[26px]">
+                            <p class="text-md font-darker text-white font-medium -mt-1">WEBSITE DESIGN</p>
+                            </div>
+                            <div class="border-2 border-white rounded-full px-2 pt-0.5 h-[26px]">
+                                <p class="text-md font-darker text-white font-medium  -mt-1">UX/UI DESIGN</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icn-svg/2023-button.svg" alt="producted in 2023" class="h-[26px]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </RouterLink>
+        </div>
+      </div>
     </div>
 
   </section>
-
 
   <BeforeFooter />
 </template>

@@ -69,7 +69,7 @@
         </div>
 
 
-        <div class="md:hidden block w-full overflow-x-auto px-4" style="width: 100vw;">
+        <div class="md:hidden block w-full overflow-x-auto" style="width: 96vw;">
             <div class="flex" style="scroll-snap-type: x mandatory; width: 290vw;">
                 
                 <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">

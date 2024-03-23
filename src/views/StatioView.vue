@@ -35,8 +35,8 @@ import MoreWork from '../components/MoreWork.vue'
       <div class="md:hidden block px-4">
 
         <div class="h-auto flex justify-around px-12 sm:px-24">
-          <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Statio</h1>
-          <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[600px] w-full object-cover">
+          <h1 class="text-white font-bold font-darker text-4xl uppercase absolute top-[450px]">Statio</h1>
+          <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[500px] w-full object-cover">
         </div>
         
         <div class="relative h-[380.5px] w-[270px] mt-16">
@@ -116,9 +116,8 @@ import MoreWork from '../components/MoreWork.vue'
 
       <img src="../assets/img/statio-ordi.webp" alt="statio on computer" class="px-4 md:px-24"> 
 
-
       <div class="w-full px-4 md:px-24">
-        <video autoplay loop class="w-full">
+        <video autoplay loop muted class="w-full">
           <source src="../assets/vid/statio-animation-1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -160,9 +159,8 @@ import MoreWork from '../components/MoreWork.vue'
           <img src="../assets/img/statio-icone.webp" alt="" class="w-3/5 object-cover pl-2">
       </div>
 
-
       <div class="w-full px-4 md:px-24">
-        <video autoplay loop class="w-full max-h-[500px] object-cover">
+        <video autoplay loop muted class="w-full max-h-[500px] object-cover">
           <source src="../assets/vid/statio-animation-2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
