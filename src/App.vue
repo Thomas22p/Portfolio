@@ -106,7 +106,7 @@
 
 
   <transition name="fade">
-    <div class="loading-screen" v-if="isLoading" style="{ transform: isLoading ? 'translateY(0%)' : 'translateY(-100%)' }">
+    <div class="loading-screen" v-if="isLoading" :class="{ 'translateY-0': isLoading, 'translateY--100': !isLoading }">
 
       <!-- Pourcentage -->
       <div class="loading-progress font-darker text-white font-normal fixed right-12 bottom-12" v-if="showProgress">

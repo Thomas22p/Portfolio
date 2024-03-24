@@ -154,9 +154,18 @@ import MoreWork from '../components/MoreWork.vue'
 
     <div class="flex flex-col gap-12 mt-40 mb-64">
 
-      <div class="flex w-full px-24">
-          <img src="../assets/img/statio-onglet.webp" alt="" class="w-2/5 object-cover pr-2">
-          <img src="../assets/img/statio-icone.webp" alt="" class="w-3/5 object-cover pl-2">
+      <div  class="md:block hidden">
+        <div class="flex w-full px-24">
+            <img src="../assets/img/statio-onglet.webp" alt="" class="w-2/5 object-cover pr-2">
+            <img src="../assets/img/statio-icone.webp" alt="" class="w-3/5 object-cover pl-2">
+        </div>
+      </div>
+
+      <div class="md:hidden block">
+        <div class="flex flex-col gap-12 w-full px-4 md:px-24">
+          <img src="../assets/img/statio-onglet.webp" alt="" class="md:w-2/5 object-cover md:pr-2">
+          <img src="../assets/img/statio-icone.webp" alt="" class="md:w-3/5 object-cover md:pl-2">
+        </div>
       </div>
 
       <div class="w-full px-4 md:px-24">
