@@ -20,6 +20,15 @@ const updateCursorPosition = (event) => {
 
     return () => clearInterval(interval);
   });
+
+  window.onload = function() {
+    var downloadLink = document.getElementById('downloadLink');
+    downloadLink.addEventListener('click', function() {
+        // Changez l'URL ci-dessous avec l'URL de votre fichier PDF
+        var pdfURL = '../assets/CV_Thomas_Poupon.pdf';
+        this.href = pdfURL;
+    });
+};
   
 </script>
 
@@ -53,7 +62,7 @@ const updateCursorPosition = (event) => {
       <div class="relative w-full h-[1000px] flex justify-center items-center" @mousemove="updateCursorPosition">
         <img class="absolute inset-0 w-auto h-[600px] object-cover opacity-60 -z-10 mx-auto" :style="{ left: imageX + 'px', top: imageY + 'px' }" src="../assets/img/my-cv.webp" alt="my cv">
         <h2 class="text-white font-bold font-darker text-[160px] text-center z-2">
-          <a href="../assets/CV_Thomas_Poupon.pdf" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
+          <a id="downloadLink" href="#" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
         </h2>
       </div>
     </div>
