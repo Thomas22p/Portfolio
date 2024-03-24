@@ -53,7 +53,7 @@ const updateCursorPosition = (event) => {
       <div class="relative w-full h-[1000px] flex justify-center items-center" @mousemove="updateCursorPosition">
         <img class="absolute inset-0 w-auto h-[600px] object-cover opacity-60 -z-10 mx-auto" :style="{ left: imageX + 'px', top: imageY + 'px' }" src="../assets/img/my-cv.webp" alt="my cv">
         <h2 class="text-white font-bold font-darker text-[160px] text-center z-2">
-          <a href="src/assets/CV_Thomas_Poupon.pdf" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
+          <a href="../assets/CV_Thomas_Poupon.pdf" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
         </h2>
       </div>
     </div>
@@ -61,7 +61,7 @@ const updateCursorPosition = (event) => {
       <div class="relative w-full h-[600px] flex justify-center items-center" @mousemove="updateCursorPosition">
         <img class="absolute inset-0 w-auto h-[400px] object-cover opacity-60 -z-10 mx-auto" src="../assets/img/my-cv.webp" alt="my cv">
         <h2 class="text-white font-bold font-darker text-center z-2">
-          <a href="src/assets/CV_Thomas_Poupon.pdf" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
+          <a href="../assets/CV_Thomas_Poupon.pdf" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
         </h2>
       </div>
     </div>

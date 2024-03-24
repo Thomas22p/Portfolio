@@ -102,7 +102,8 @@
 </script>
 
 <template>
-  <div class="custom-cursor z-50" ref="customCursor"></div>
+
+  <div class="custom-cursor z-50 md:block hidden" ref="customCursor"></div>
 
 
   <transition name="fade">

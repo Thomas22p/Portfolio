@@ -2,19 +2,19 @@
 import { ref } from 'vue';
 
 const images = ref([
-  { src: 'src/assets/img/cover-1.jpg', alt: 'cover 1' },
-  { src: 'src/assets/img/cover-2.jpg', alt: 'cover 2' },
-  { src: 'src/assets/img/mockup-idesign.jpg', alt: '' },
-  { src: 'src/assets/img/affiche-cameleon.jpg', alt: 'cover 3' },
-  { src: 'src/assets/img/affiche-fuji.jpg', alt: 'cover 6' },
-  { src: 'src/assets/img/mockup-carte-de-visite.jpg', alt: 'cover 3' },
-  { src: 'src/assets/img/mockup-600.jpg', alt: 'cover 5' },
-  { src: 'src/assets/img/mockup-benevol-action-1.jpg', alt: 'cover 7' },
-  { src: 'src/assets/img/Mockup-pancarte.jpg', alt: 'cover 1' },
-  { src: 'src/assets/img/affiche-nomadis.jpg', alt: 'cover 7' },
-  { src: 'src/assets/img/affiche-zebre.jpg', alt: 'cover 1' },
-  { src: 'src/assets/img/affiche-montebello.jpg', alt: 'cover 7' },
-  { src: 'src/assets/img/cover-3.jpg', alt: 'cover 1' },
+  { src: '../assets/img/cover-1.jpg', alt: 'cover 1' },
+  { src: '../assets/img/cover-2.jpg', alt: 'cover 2' },
+  { src: '../assets/img/mockup-idesign.jpg', alt: '' },
+  { src: '../assets/img/affiche-cameleon.jpg', alt: 'cover 3' },
+  { src: '../assets/img/affiche-fuji.jpg', alt: 'cover 6' },
+  { src: '../assets/img/mockup-carte-de-visite.jpg', alt: 'cover 3' },
+  { src: '../assets/img/mockup-600.jpg', alt: 'cover 5' },
+  { src: '../assets/img/mockup-benevol-action-1.jpg', alt: 'cover 7' },
+  { src: '../assets/img/Mockup-pancarte.jpg', alt: 'cover 1' },
+  { src: '../assets/img/affiche-nomadis.jpg', alt: 'cover 7' },
+  { src: '../assets/img/affiche-zebre.jpg', alt: 'cover 1' },
+  { src: '../assets/img/affiche-montebello.jpg', alt: 'cover 7' },
+  { src: '../assets/img/cover-3.jpg', alt: 'cover 1' },
 
 ]);
 
