@@ -2,12 +2,14 @@
 
 import { ref, onMounted } from 'vue';
 
+// effet de suivi cv
+
 const imageX = ref(0);
 const imageY = ref(0);
 
 const updateCursorPosition = (event) => {
   imageX.value = event.clientX - 710; 
-  imageY.value = event.clientY - 160; // Ajustez la valeur en fonction de la taille de votre image
+  imageY.value = event.clientY - 160;
 };
 
   const dynamicText = ref(0);
@@ -20,16 +22,7 @@ const updateCursorPosition = (event) => {
 
     return () => clearInterval(interval);
   });
-
-  window.onload = function() {
-    var downloadLink = document.getElementById('downloadLink');
-    downloadLink.addEventListener('click', function() {
-        // Changez l'URL ci-dessous avec l'URL de votre fichier PDF
-        var pdfURL = '../assets/CV_Thomas_Poupon.pdf';
-        this.href = pdfURL;
-    });
-};
-  
+ 
 </script>
 
 <template>
@@ -57,12 +50,13 @@ const updateCursorPosition = (event) => {
 
 
 
-
+    <!-- Effet de suivi CV -->
     <div class="md:block hidden">
       <div class="relative w-full h-[1000px] flex justify-center items-center" @mousemove="updateCursorPosition">
         <img class="absolute inset-0 w-auto h-[600px] object-cover opacity-60 -z-10 mx-auto" :style="{ left: imageX + 'px', top: imageY + 'px' }" src="../assets/img/my-cv.webp" alt="my cv">
         <h2 class="text-white font-bold font-darker text-[160px] text-center z-2">
-          <a id="downloadLink" href="#" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
+          <a href="https://drive.google.com/file/d/1ytCPqujYHebYf00qCcgPBnOUa8GLZd1O/view?usp=sharing" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download target="_blank">DOWNLOAD CV</a>
+
         </h2>
       </div>
     </div>
@@ -70,16 +64,10 @@ const updateCursorPosition = (event) => {
       <div class="relative w-full h-[600px] flex justify-center items-center" @mousemove="updateCursorPosition">
         <img class="absolute inset-0 w-auto h-[400px] object-cover opacity-60 -z-10 mx-auto" src="../assets/img/my-cv.webp" alt="my cv">
         <h2 class="text-white font-bold font-darker text-center z-2">
-          <a href="../assets/CV_Thomas_Poupon.pdf" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download="CV_Thomas_Poupon.pdf">DOWNLOAD CV</a>
+          <a href="https://drive.google.com/file/d/1ytCPqujYHebYf00qCcgPBnOUa8GLZd1O/view?usp=sharing" class="text-white font-bold font-darker text-6xl lg:text-[160px] text-center z-2" download target="_blank">DOWNLOAD CV</a>
         </h2>
       </div>
     </div>
-
-
-
-
-
-
 
   </div>
 </template>

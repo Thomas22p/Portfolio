@@ -10,7 +10,7 @@
             <div class="flex w-full justify-between gap-4">
                 <RouterLink to="/mylogo">
                     <div class="relative">
-                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.png" alt="Second project - My logo">
+                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.webp" alt="Second project - My logo">
                         <div class="">
                             <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">MY LOGO</h1>
                             <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
@@ -29,7 +29,7 @@
                 </RouterLink>
                 <RouterLink to="/campus">
                     <div class="relative">
-                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-campus.jpg" alt="Third project - Campus">
+                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-campus.webp" alt="Third project - Campus">
                         <div class="">
                             <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">CAMPUS</h1>
                             <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
@@ -48,7 +48,7 @@
                 </RouterLink>
                 <RouterLink to="/primitivism">
                     <div class="relative">
-                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.webp" alt="Fourth project - Primitivism">
                         <div class="">
                             <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
                             <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
@@ -75,7 +75,7 @@
                 <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
                     <RouterLink to="/mylogo">
                         <div class="relative">
-                            <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.png" alt="Second project - My logo">
+                            <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.webp" alt="Second project - My logo">
                             <div class="">
                                 <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">MY LOGO</h1>
                                 <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
@@ -96,7 +96,7 @@
                 <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
                     <RouterLink to="/campus">
                         <div class="relative">
-                            <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-campus.jpg" alt="Third project - Campus">
+                            <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-campus.webp" alt="Third project - Campus">
                             <div class="">
                                 <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">CAMPUS</h1>
                                 <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
@@ -117,7 +117,7 @@
                 <div class="inline-block" style="scroll-snap-align: start; width: 92vw;">
                     <RouterLink to="/primitivism">
                         <div class="relative">
-                            <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                            <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.webp" alt="Fourth project - Primitivism">
                             <div class="">
                                 <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
                                 <div class="flex items-center gap-2 absolute bottom-5 px-2.5">

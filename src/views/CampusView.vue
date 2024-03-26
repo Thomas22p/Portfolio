@@ -18,17 +18,17 @@ import MoreWork from '../components/MoreWork.vue'
         <div class="hero-wrapper px-24 lg:px-0">
           <div class="relative h-[380.5px] w-[270px]">
             <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-            <img src="../assets/img/mockup-panneau.png" alt="signage campus" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
+            <img src="../assets/img/mockup-panneau.webp" alt="signage campus" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
           </div>
         
           <div class="h-[500px] w-[350px] flex justify-around">
             <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Campus</h1>
-            <img src="../assets/img/map.png" alt="university campus 3d map" class="h-[500px] w-[350px] object-cover">
+            <img src="../assets/img/map.webp" alt="university campus 3d map" class="h-[500px] w-[350px] object-cover">
           </div>
         
           <div class="relative h-[221px] w-[150px]">
             <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-            <img src="../assets/img/mockup-campus.jpg" alt="campus" class="h-[220px] lg:w-[150px] object-cover rounded-2xl">
+            <img src="../assets/img/mockup-campus.webp" alt="campus" class="h-[220px] lg:w-[150px] object-cover rounded-2xl">
           </div>
         
         </div>
@@ -38,17 +38,17 @@ import MoreWork from '../components/MoreWork.vue'
 
           <div class="h-auto flex justify-around px-12 sm:px-24">
             <h1 class="text-white font-bold font-darker text-4xl uppercase absolute top-[450px]">Campus</h1>
-            <img src="../assets/img/map.png" alt="university campus 3d map" class="h-[500px] w-full object-cover">
+            <img src="../assets/img/map.webp" alt="university campus 3d map" class="h-[500px] w-full object-cover">
           </div>
 
           <div class="relative h-[380.5px] w-[270px] mt-16">
             <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-            <img src="../assets/img/mockup-panneau.png" alt="signage campus" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
+            <img src="../assets/img/mockup-panneau.webp" alt="signage campus" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
           </div>
         
           <div class="relative h-[221px] w-[150px] mt-16 ml-auto">
             <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-            <img src="../assets/img/mockup-campus.jpg" alt="campus" class="h-[220px] w-[150px] object-cover rounded-2xl">
+            <img src="../assets/img/mockup-campus.webp" alt="campus" class="h-[220px] w-[150px] object-cover rounded-2xl">
           </div>
       </div>
       
@@ -72,7 +72,7 @@ import MoreWork from '../components/MoreWork.vue'
 
     <div class="relative">
       <div class="absolute inset-0 gradient-img z-1 rounded-t-[50px]"></div>
-      <img src="../assets/img/map.png" alt="university campus 3d map" class="w-full rounded-t-[50px]">
+      <img src="../assets/img/map.webp" alt="university campus 3d map" class="w-full rounded-t-[50px]">
     </div>
 
 
@@ -111,7 +111,7 @@ import MoreWork from '../components/MoreWork.vue'
 
 
     <div class="flex flex-col gap-12 mt-40 mb-64">
-      <img src="../assets/img/mockup-campus.jpg" alt="university campus 3d map" class="px-4 md:px-24">
+      <img src="../assets/img/mockup-campus.webp" alt="university campus 3d map" class="px-4 md:px-24">
     </div>
 
 
@@ -211,7 +211,7 @@ import MoreWork from '../components/MoreWork.vue'
         <div class="flex w-full justify-between gap-4">
             <RouterLink to="/statio">
               <div class="relative">
-                <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.jpg" alt="First project - Statio">
+                <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.webp" alt="First project - Statio">
                 <div class="">
                   <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">STATIO</h1>
                   <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
@@ -230,7 +230,7 @@ import MoreWork from '../components/MoreWork.vue'
             </RouterLink>
             <RouterLink to="/mylogo">
                 <div class="relative">
-                  <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.png" alt="Second project - My logo">
+                  <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.webp" alt="Second project - My logo">
                   <div class="">
                     <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">MY LOGO</h1>
                     <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
@@ -249,7 +249,7 @@ import MoreWork from '../components/MoreWork.vue'
             </RouterLink>
             <RouterLink to="/primitivism">
                 <div class="relative">
-                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.webp" alt="Fourth project - Primitivism">
                     <div class="">
                         <h1 class="text-white font-bold font-darker text-2xl lg:text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
                         <div class="flex items-center gap-2 absolute bottom-5 left-5 flex-wrap">
@@ -276,7 +276,7 @@ import MoreWork from '../components/MoreWork.vue'
         <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
             <RouterLink to="/statio">
                 <div class="relative">
-                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.jpg" alt="First project - Statio">
+                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.webp" alt="First project - Statio">
                     <div class="">
                         <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">STATIO</h1>
                         <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
@@ -297,7 +297,7 @@ import MoreWork from '../components/MoreWork.vue'
         <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
           <RouterLink to="/mylogo">
             <div class="relative">
-              <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.png" alt="Second project - My logo">
+              <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/my-logo.webp" alt="Second project - My logo">
               <div class="">
                 <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">MY LOGO</h1>
                 <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
@@ -318,7 +318,7 @@ import MoreWork from '../components/MoreWork.vue'
         <div class="inline-block" style="scroll-snap-align: start; width: 92vw;">
             <RouterLink to="/primitivism">
                 <div class="relative">
-                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                    <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl opacity-65" src="../assets/img/mockup-primitivism-1.webp" alt="Fourth project - Primitivism">
                     <div class="">
                         <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
                         <div class="flex items-center gap-2 absolute bottom-5 px-2.5">

@@ -18,15 +18,15 @@ import MoreWork from '../components/MoreWork.vue'
         <div class="hero-wrapper px-24 lg:px-0">
           <div class="relative h-[380.5px] w-[270px]">
             <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-            <img src="../assets/img/mockup-statio-3.jpg" alt="statio" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
+            <img src="../assets/img/mockup-statio-3.webp" alt="statio" class="h-[380px] lg:w-[270px] object-cover rounded-2xl">
           </div>
           <div class="h-[500px] w-[350px] flex justify-around">
             <h1 class="text-white font-bold font-darker text-8xl uppercase absolute top-[450px]">Statio</h1>
-            <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[500px] w-[350px] object-cover">
+            <img src="../assets/img/statio-paysage.webp" alt="paysage" class="h-[500px] w-[350px] object-cover">
           </div>
           <div class="relative h-[221px] w-[150px]">
             <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-            <img src="../assets/img/mockup-statio-1.jpg" alt="statio" class="h-[220px] lg:w-[150px] object-cover rounded-2xl">
+            <img src="../assets/img/mockup-statio-1.webp" alt="statio" class="h-[220px] lg:w-[150px] object-cover rounded-2xl">
           </div>
         </div>
         
@@ -36,17 +36,17 @@ import MoreWork from '../components/MoreWork.vue'
 
         <div class="h-auto flex justify-around px-12 sm:px-24">
           <h1 class="text-white font-bold font-darker text-4xl uppercase absolute top-[450px]">Statio</h1>
-          <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="h-[500px] w-full object-cover">
+          <img src="../assets/img/statio-paysage.webp" alt="paysage" class="h-[500px] w-full object-cover">
         </div>
         
         <div class="relative h-[380.5px] w-[270px] mt-16">
           <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-          <img src="../assets/img/mockup-statio-3.jpg" alt="statio" class="h-[380px] w-[270px] object-cover rounded-2xl">
+          <img src="../assets/img/mockup-statio-3.webp" alt="statio" class="h-[380px] w-[270px] object-cover rounded-2xl">
         </div>
       
         <div class="relative h-[221px] w-[150px] mt-16 ml-auto">
           <div class="absolute inset-0 gradient-img z-1 rounded-2xl"></div>
-          <img src="../assets/img/mockup-statio-1.jpg" alt="statio" class="h-[220px] w-[150px] object-cover rounded-2xl">
+          <img src="../assets/img/mockup-statio-1.webp" alt="statio" class="h-[220px] w-[150px] object-cover rounded-2xl">
         </div>
         
       </div>
@@ -70,7 +70,7 @@ import MoreWork from '../components/MoreWork.vue'
 
     <div class="relative">
       <div class="absolute inset-0 gradient-img z-1 rounded-t-[50px]"></div>
-      <img src="../assets/img/statio-paysage.jpg" alt="paysage" class="w-full rounded-t-[50px]">
+      <img src="../assets/img/statio-paysage.webp" alt="paysage" class="w-full rounded-t-[50px]">
     </div>
 
 
@@ -122,6 +122,10 @@ import MoreWork from '../components/MoreWork.vue'
           Your browser does not support the video tag.
         </video>
       </div>
+
+      <img src="../assets/img/mockup-statio-1.webp" alt="statio on computer" class="px-4 md:px-24">
+      <img src="../assets/img/mockup-statio-2.webp" alt="statio on computer" class="px-4 md:px-24">
+      <img src="../assets/img/mockup-statio-3.webp" alt="statio on computer" class="px-4 md:px-24">
 
     </div>
 

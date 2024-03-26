@@ -19,7 +19,7 @@
 <template>
 
 
- <!-- Bannière  -->             <!-- md:block hidden -> enlever ceci (juste en dessous) pour voir en dessous de md  --> 
+ <!-- Bannière -->
   <div class="relative h-[600px] md:h-[1000px] flex justify-center items-center">
     <img src="../assets/icn-svg/hero-homepage.svg" alt="Thomas Poupon" class="absolute z-0 inset-0 m-auto">
     <div class="absolute z-1">
@@ -57,7 +57,7 @@
         </a>
       </div>
 
-      <!-- cards -->
+      <!-- cards skills -->
       <div class="flex flex-col gap-4 lg:grille mt-20">
 
         <div class="bg-darkblue text-white rounded-lg p-6 lg:col-span-4 flex flex-col gap-5 transition-transform duration-300 ease-in-out hover:-translate-y-8">
@@ -117,18 +117,15 @@
 
   
 
-    <!-- <Work class="mb-[200px]" /> -->
+    <!-- Projets -->
 
     <img src="../assets/vid/work.gif" alt="work" class="md:mt-[300px] mt-[200px] mb-[200px]">
-
-
-    <!-- Projets -->
 
     <Projects class="mb-[200px]" />
 
 
 
-    <!-- <Gallery class="mb-[200px]" /> -->
+    <!-- Gallery -->
 
     
     <img src="../assets/vid/gallery.gif" alt="gallery" class="md:mt-[300px] mt-[200px] mb-[200px]">

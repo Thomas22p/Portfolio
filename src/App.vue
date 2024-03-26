@@ -102,10 +102,11 @@
 </script>
 
 <template>
+  <!-- curseur personnalisé -->
 
   <div class="custom-cursor z-50 md:block hidden" ref="customCursor"></div>
 
-
+  <!-- Chargment du site -->
   <transition name="fade">
     <div class="loading-screen" v-if="isLoading" :class="{ 'translateY-0': isLoading, 'translateY--100': !isLoading }">
 
@@ -125,6 +126,7 @@
       </div>
     </div>
 
+    <!-- Hierarchie -->
     <div v-else>
       <Header />
       <RouterView />

@@ -20,10 +20,13 @@ function previousSlide() {
 
 <template>
 
+
+    <!-- Partie projet pc -->
+
     <div class="md:block hidden mb-200px">
         <RouterLink to="/statio">
             <div class="relative">
-                <img class="object-cover object-center w-[100vw] h-[100vh] opacity-75" src="../assets/img/mockup-statio-1.jpg" alt="First project - Statio">
+                <img class="object-cover object-center w-[100vw] h-[100vh] opacity-75" src="../assets/img/mockup-statio-1.webp" alt="First project - Statio">
                 <div class="absolute bottom-0 left-0 right-0 pb-10 px-4 lg:px-24 flex justify-between items-center">
                     <h1 class="text-white font-bold font-darker text-6xl lg:text-8xl">STATIO</h1>
                     <div class="flex flex-wrap items-center gap-2 justify-end">
@@ -65,7 +68,7 @@ function previousSlide() {
 
         <RouterLink to="/campus">
             <div class="relative">
-                <img class="object-cover object-center w-[100vw] h-[100vh] opacity-75" src="../assets/img/mockup-campus.jpg" alt="Third project - Campus Signalisation">
+                <img class="object-cover object-center w-[100vw] h-[100vh] opacity-75" src="../assets/img/mockup-campus.webp" alt="Third project - Campus Signalisation">
                 <div class="absolute bottom-0 left-0 right-0 pb-10 px-4 lg:px-24 flex justify-between items-center">
                     <h1 class="text-white font-bold font-darker text-6xl lg:text-8xl">CAMPUS</h1>
                     <div class="flex flex-wrap items-center gap-2 justify-end">
@@ -86,7 +89,7 @@ function previousSlide() {
 
         <RouterLink to="/primitivism">
             <div class="relative">
-                <img class="object-cover object-center w-[100vw] h-[100vh] opacity-75" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                <img class="object-cover object-center w-[100vw] h-[100vh] opacity-75" src="../assets/img/mockup-primitivism-1.webp" alt="Fourth project - Primitivism">
                 <div class="absolute bottom-0 left-0 right-0 pb-10 px-4 lg:px-24 flex justify-between items-center">
                     <h1 class="text-white font-bold font-darker text-6xl lg:text-8xl">PRIMITIVISM</h1>
                     <div class="flex flex-wrap items-center gap-2 justify-end">
@@ -107,13 +110,14 @@ function previousSlide() {
     </div>
 
 
-
+    <!-- Partie projet slider mobile -->
+    
     <div class="md:hidden block w-full overflow-x-auto px-4" style="width: 100vw;">
         <div class="flex" style="scroll-snap-type: x mandatory; width: 380vw;">
             <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
                 <RouterLink to="/statio">
                     <div class="relative">
-                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.jpg" alt="First project - Statio">
+                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/statio-paysage.webp" alt="First project - Statio">
                         <div class="">
                             <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">STATIO</h1>
                             <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
@@ -155,7 +159,7 @@ function previousSlide() {
             <div class="inline-block" style="scroll-snap-align: start; width: 92vw; margin-right: 20px;">
                 <RouterLink to="/campus">
                     <div class="relative">
-                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-campus.jpg" alt="Third project - Campus">
+                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-campus.webp" alt="Third project - Campus">
                         <div class="">
                             <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">CAMPUS</h1>
                             <div class="flex items-center gap-2 absolute bottom-5 px-2.5">
@@ -176,7 +180,7 @@ function previousSlide() {
             <div class="inline-block" style="scroll-snap-align: start; width: 92vw;">
                 <RouterLink to="/primitivism">
                     <div class="relative">
-                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-primitivism-1.jpg" alt="Fourth project - Primitivism">
+                        <img class="object-cover object-center w-[400px] h-[600px] rounded-2xl" src="../assets/img/mockup-primitivism-1.webp" alt="Fourth project - Primitivism">
                         <div class="">
                             <h1 class="text-white font-bold font-darker text-4xl absolute top-4 left-5">PRIMITIVISM</h1>
                             <div class="flex items-center gap-2 absolute bottom-5 px-2.5">

@@ -17,7 +17,7 @@
     // Simulation de l'envoi de l'email à thomaspoupon.pro@gmail.com
     console.log('Envoi de l\'email :', emailData);
     
-    // Réinitialisation du formulaire après soumission réussie
+    // Réinitialisation du formulaire
     formData.value = {
       name: '',
       email: '',
